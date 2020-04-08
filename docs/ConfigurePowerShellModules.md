@@ -1,4 +1,4 @@
-# Configure Powershell Modules and Environment Variab;es
+# Configure Powershell Modules and Environment Variables
 
 Configures PowerShell for the required modules and set environment variables used in the scripts.  Note this will update modules to the minimum required versions.
 

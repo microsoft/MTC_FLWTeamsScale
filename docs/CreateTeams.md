@@ -1,9 +1,9 @@
 # Create Teams
 
-Creates Teams defined in the CSV file.  This only creates the Teams whereas [Create Teams Channels](.\CreateTeamsChannels.md) is used to create channels.
+Creates Teams defined in the CSV file.  This only creates the Teams whereas [Create Teams Channels](../docs/CreateTeamsChannels.md) is used to create channels.
 
 This script will implicitly create the Office group associated with the and its membership type will 
-be "assigned".  Later you can run [Convert Group Membership Type](./ConvertGroupMembershipType.md) to change the team membership type to dynamic membership.
+be "assigned".  Later you can run [Convert Group Membership Type](../docs/ConvertGroupMembershipType.md) to change the team membership type to dynamic membership.
 
 ## Steps
 
