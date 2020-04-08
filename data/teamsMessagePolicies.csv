@@ -1,0 +1,3 @@
+﻿policyName,policyDescription,AllowUrlPreview,AllowOwnerDeleteMessage,AllowUserEditMessage,AllowUserDeleteMessage,AllowUserChat,AllowRemoveUser,AllowGiphy,GiphyRatingType,AllowMemes,AllowImmersiveReader,AllowStickers,AllowUserTranslation,ReadReceiptsEnabledType,AllowPriorityMessages,ChannelsInChatListEnabledType,AudioMessageEnabledType
+Firstline Worker Messaging Policy,Firstline Worker Messaging Policy,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,Moderate,TRUE,TRUE,TRUE,TRUE,Everyone,FALSE,EnabledUserOverride,ChatsAndChannels
+Firstline Manager Messaging Policy,Firstline Manager Messaging Policy,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,Moderate,TRUE,TRUE,TRUE,TRUE,Everyone,TRUE,EnabledUserOverride,ChatsAndChannels

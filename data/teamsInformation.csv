@@ -1,0 +1,5 @@
+﻿﻿Region,District,Location,StoreNumber,TeamName,TeamDescription,IsTeamPrivate,TeamOwners,TeamEmailNickname,LocationAU,LocationAdmins
+US,NW,Bellevue,101,US NW Bellevue 101,Bellevue WA - Store 101 Team,private,admin@contoso.com,Store101Email,Store101AU,flmuser5@contoso.com
+US,NW,Redmond,102,US NW Redmond 102,Redmond WA - Store 102 Team,private,admin@contoso.com,Store102Email,Store102AU,flmuser2@contoso.com
+US,NC,Minneapolis,909,US NC Minneapolis 909,Minneapolis MN - Store 909 Team,private,admin@contoso.com,Store909Email,Store909AU,flmuser3@contoso.com
+US,NC,Duluth,1002,US NC Duluth 1002,Duluth MN - Store 1002 Team,private,admin@contoso.com,Store1002Email,Store1002AU,flmuser3@contoso.com

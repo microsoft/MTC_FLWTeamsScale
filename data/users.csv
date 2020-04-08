@@ -1,0 +1,9 @@
+﻿Name,Alias,DisplayName,TeamName,State,City,SecurityGroup,JobTitle,UsageLocation,MobileNumber
+FLMuser1,flmuser1,Firstline Manager user 1,US NW Bellevue 101,WA,Bellevue,Firstline Managers,Firstline Manager,US,800-555-1212
+FLMuser2,flmuser2,Firstline Manager user 2,US NW Redmond 102,WA,Redmond,Firstline Managers,Firstline Manager,US,800-555-1212
+FLMuser3,flmuser3,Firstline Manager user 3,US NC Minneapolis 909,MN,Minneapolis,Firstline Managers,Firstline Manager,US,800-555-1212
+FLMuser4,flmuser4,Firstline Manager user 4,US NC Duluth 1002,MN,Duluth,Firstline Managers,Firstline Manager,US,800-555-1212
+FLWuser1,flwuser1,Firstline Worker user 1,US NW Bellevue 101,WA,Bellevue,Firstline Workers,Firstline Worker,US,800-555-1212
+FLWuser2,flwuser2,Firstline Worker user 2,US NW Redmond 102,WA,Redmond,Firstline Workers,Firstline Worker,US,800-555-1212
+FLWuser3,flwuser3,Firstline Worker user 3,US NC Minneapolis 909,MN,Minneapolis,Firstline Workers,Firstline Worker,US,800-555-1212
+FLWuser4,flwuser4,Firstline Worker user 4,US NC Duluth 1002,MN,Duluth,Firstline Workers,Firstline Worker,US,800-555-1212
