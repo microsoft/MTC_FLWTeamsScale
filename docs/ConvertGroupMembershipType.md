@@ -5,7 +5,8 @@ are written to determine if someone is a member of the team or not.
 
     NOTE
 
-    When you run this script, the current membership of the group will be removed (except for its owners), and new members will be added when the membership synch job runs.
+    When you run this script, the current membership of the group will be removed (except for its owners), 
+    and new members will be added when the membership synch job runs.
 
 ## Steps
 

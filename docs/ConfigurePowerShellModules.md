@@ -4,7 +4,7 @@ Configures PowerShell for the required modules and set environment variables use
 
 ## Steps
 
-1. If you haven't already, follow the steps in [README](../readme.md) and configure your local environment
+1. If you haven't already, follow the steps in [README](../README.md) and configure your local environment
 2. Run the script [ConfigurePowerShellModules](../scripts/ConfigurePowerShellModules.ps1)
 
 ## Contributing

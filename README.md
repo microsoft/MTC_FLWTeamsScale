@@ -22,8 +22,9 @@ For example: .\SetConfig.ps1 -tenantName contoso.onmicrosoft.com -rootPath "C:\d
 
     NOTE
     
-    How credentials are managed in these scripts may not be appropriate for your use, and they are easily changed to meet your requirements.  
-    Please follow your company standards and practices for securing service accounts and managed identities.
+    How credentials are managed in these scripts may not be appropriate for your use, and they are 
+    easily changed to meet your requirements. Please follow your company standards and practices 
+    for securing service accounts and managed identities.
 
 The scripts use credentials that are stored as XML files in $ENV:LOCALAPPDATA\keys, i.e. the AppData\Local folder.  The helper function Set-Creds in the module [BulkAddFunctions.psm1](./scripts/BulkAddFunctions.psm1) needs to be called to set the credentials used to run these scripts.  This technique removes the need for you to authenticate to all various service endpoints while maintaining the credentials in a local store.  From within each script, the appropriate credentials are read with the helper function Get-Creds and those credentials are used to connect to the various services.
 
@@ -51,7 +52,7 @@ Before you start, the PowerShell environment needs appropriate modules and versi
 
 Create the Teams needed to support the Firstline workers.  For example, a Team may be created per location or store.  Follow the instructions at [Create Teams](./docs/CreateTeams.md)
 
-### Create Channels for Teams
+### Create Teams Channels
 
 Create the Team Channels per team created in the previous step Create Teams.  Channels are used to segment common work areas within a Team.  Follow the instructions at [Create Teams Channels](./docs/CreateTeamsChannels.md)
 
