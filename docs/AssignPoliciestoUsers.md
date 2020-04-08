@@ -5,8 +5,8 @@ Assign the Teams policies for messaging, App Setup, and App Permissions accordin
 ## Steps
 
 1. In the Teams Admin Console, create App Setup and App Permission policy for both the Firstline Manager and Worker 
-2. Update the CSV file [Security Groups](./data/securityGroups.csv) for the assigned policies
-3. From PowerShell, run the script [Assign Policies to Users](./scripts/AssignPoliciestoUsers.ps1)
+2. Update the CSV file [Security Groups](../data/securityGroups.csv) for the assigned policies
+3. From PowerShell, run the script [Assign Policies to Users](../scripts/AssignPoliciestoUsers.ps1)
 
 ## Contributing
 

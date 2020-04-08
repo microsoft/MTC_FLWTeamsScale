@@ -4,7 +4,7 @@ Creates an Azure AD App Registration and assigns its necessary permissions.
 
 ## Steps
 
-1. From an PowerShell session, run the script [CreateAppRegistration](./scripts/CreateAppRegistration.ps1)
+1. From an PowerShell session, run the script [CreateAppRegistration](../scripts/CreateAppRegistration.ps1)
 
 ## Contributing
 

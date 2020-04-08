@@ -4,8 +4,8 @@ Creates Teams Message Policies defined in the CSV file.
 
 ## Steps
 
-1. Update the CSV file [Teams Message Policies](./data/teamsMessagePolicies.csv) with the memessagessaging policies that will be created
-2. From PowerShell, run the script [Create Teams Messaging Policies](./scripts/CreateTeamsMessagePolicies.ps1)
+1. Update the CSV file [Teams Message Policies](../data/teamsMessagePolicies.csv) with the memessagessaging policies that will be created
+2. From PowerShell, run the script [Create Teams Messaging Policies](../scripts/CreateTeamsMessagePolicies.ps1)
 
 ## Contributing
 

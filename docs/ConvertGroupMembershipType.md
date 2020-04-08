@@ -9,8 +9,8 @@ are written to determine if someone is a member of the team or not.
 
 ## Steps
 
-1. Update the CSV file [Migrate Groups](./data/migrateGroups.csv) with the Groups that will be migrated along with the rule for dynamic membership
-2. From PowerShell, run the script [ConvertGroupMembershipType.ps1](./scripts/ConvertGroupMembershipType.ps1)
+1. Update the CSV file [Migrate Groups](../data/migrateGroups.csv) with the Groups that will be migrated along with the rule for dynamic membership
+2. From PowerShell, run the script [ConvertGroupMembershipType.ps1](../scripts/ConvertGroupMembershipType.ps1)
 
 ## Contributing
 

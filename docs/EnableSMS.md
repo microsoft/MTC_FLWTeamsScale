@@ -4,7 +4,7 @@ Enables SMS Sign-in
 
 ## Steps
 
-1. Update the CSV file [User Information](./data/userInformation.csv) with the Azure AD Administrative Units (AU) that will be created and the UPNs of each administrator for the AU
+1. Update the CSV file [User Information](../data/userInformation.csv) with the Azure AD Administrative Units (AU) that will be created and the UPNs of each administrator for the AU
 2. From PowerShell, run the script ~update
 
 ## Contributing

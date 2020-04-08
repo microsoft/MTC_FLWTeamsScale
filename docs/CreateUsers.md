@@ -10,9 +10,9 @@ Creates users and security groups defined in their CSV files.  Assigns the user 
 
 ## Steps
 
-1. Update the CSV file [Users](./data/users.csv) with the users that will be created
-2. Update the CSV file [Security Groups](./data/securityGroups.csv) with the security groups that will be created
-3. From PowerShell, run the script [Create Users](./scripts/CreateUsers.ps1)
+1. Update the CSV file [Users](../data/users.csv) with the users that will be created
+2. Update the CSV file [Security Groups](../data/securityGroups.csv) with the security groups that will be created
+3. From PowerShell, run the script [Create Users](../scripts/CreateUsers.ps1)
 
 ## Contributing
 

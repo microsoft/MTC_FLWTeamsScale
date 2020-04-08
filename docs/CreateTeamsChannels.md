@@ -1,11 +1,11 @@
 # Create Teams Channels
 
-Creates Teams Channels defined in the CSV file.  This script must be run after [Create Teams](./docs/CreateTeams.md).  It will create the channels defined in the CSV for each Team previously created
+Creates Teams Channels defined in the CSV file.  This script must be run after [Create Teams](../docs/CreateTeams.md).  It will create the channels defined in the CSV for each Team previously created
 
 ## Steps
 
-1. Update the CSV file [Teams Channels](./data/teamsChannels.csv) with the channels that will be created
-2. From PowerShell, run the script [Create Channels](./scripts/CreateTeamsChannels.ps1)
+1. Update the CSV file [Teams Channels](../data/teamsChannels.csv) with the channels that will be created
+2. From PowerShell, run the script [Create Channels](../scripts/CreateTeamsChannels.ps1)
 
 ## Contributing
 

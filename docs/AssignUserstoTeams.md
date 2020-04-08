@@ -4,8 +4,8 @@ Assign the users to their assign Teams according to the user CSV file.
 
 ## Steps
 
-1. Update the CSV file [Users](./data/users.csv) for the users assigned Team
-2. From PowerShell, run the script [Assign Users to Teams](./scripts/AssignUserstoTeams.ps1)
+1. Update the CSV file [Users](../data/users.csv) for the users assigned Team
+2. From PowerShell, run the script [Assign Users to Teams](../scripts/AssignUserstoTeams.ps1)
 
 ## Contributing
 
