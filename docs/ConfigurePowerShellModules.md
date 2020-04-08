@@ -1,10 +1,10 @@
-# Configure Powershell Modules and Environment Variab;es
+# Configure Powershell Modules and Environment Variables
 
 Configures PowerShell for the required modules and set environment variables used in the scripts.  Note this will update modules to the minimum required versions.
 
 ## Steps
 
-1. If you haven't already, follow the steps in [README](../readme.md) and configure your local environment
+1. If you haven't already, follow the steps in [README](../README.md) and configure your local environment
 2. Run the script [ConfigurePowerShellModules](../scripts/ConfigurePowerShellModules.ps1)
 
 ## Contributing

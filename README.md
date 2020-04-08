@@ -22,20 +22,21 @@ For example: .\SetConfig.ps1 -tenantName contoso.onmicrosoft.com -rootPath "C:\d
 
     NOTE
     
-    How credentials are managed in these scripts may not be appropriate for your use, and they are easily changed to meet your requirements.  
-    Please follow your company standards and practices for securing service accounts and managed identities.
+    How credentials are managed in these scripts may not be appropriate for your use, and they are 
+    easily changed to meet your requirements. Please follow your company standards and practices 
+    for securing service accounts and managed identities.
 
-The scripts use credentials that are stored as XML files in $ENV:LOCALAPPDATA\keys, i.e. the AppData\Local folder.  The helper function SetCreds in the module [BulkAddFunctions.psm1](.\scripts\BulkAddFunctions.psm1) needs to be called to set the credentials used to run these scripts.  This technique removes the need for you to authenticate to all various service endpoints while maintaining the credentials in a local store.  From within each script, the appropriate credentials are read with the helper function GetCreds and those credentials are used to connect to the various services.
+The scripts use credentials that are stored as XML files in $ENV:LOCALAPPDATA\keys, i.e. the AppData\Local folder.  The helper function Set-Creds in the module [BulkAddFunctions.psm1](./scripts/BulkAddFunctions.psm1) needs to be called to set the credentials used to run these scripts.  This technique removes the need for you to authenticate to all various service endpoints while maintaining the credentials in a local store.  From within each script, the appropriate credentials are read with the helper function Get-Creds and those credentials are used to connect to the various services.
 
-When you call SetCreds, you are prompted to provide a XML file name that will be written to $ENV:LOCALAPPDATA\keys.  You might have different credentials for different services.  For example you might have different credentials for MicrosoftTeams, AzureAD, and MSonline, in which case you can run SetCred saving each credential file with its own meanignful name.
+When you call Set-Creds, you are prompted to provide a XML file name that will be written to $ENV:LOCALAPPDATA\keys.  You might have different credentials for different services.  For example you might have different credentials for MicrosoftTeams, AzureAD, and MSonline, in which case you can run Set-Creds saving each credential file with its own meanignful name.
 
 Examples:
 
     Set-Creds msol-cred.xml
     Set-Creds azuread-cred.xml
-    Set-Creds teams-cred.xml
+    Set-Creds teams-cred.xml 
 
-Run the script [SetCreds.ps1](.\scripts\SetCreds.ps1) to save your credentials.  You will be prompted with "Performing the operation "Export-Clixml"..." and enter 'Y' to approve.  NOTE - the account used for the credentials cannot require MFA.
+Run the script [SetCreds.ps1](./scripts/SetCreds.ps1) to save your credentials.  You will be prompted with "Performing the operation "Export-Clixml"..." and enter 'Y' to approve.  NOTE - the account used for the credentials cannot require MFA.
 
 Here is an example of how the various scripts then use the saved creds to authenticate:
 
@@ -51,9 +52,9 @@ Before you start, the PowerShell environment needs appropriate modules and versi
 
 Create the Teams needed to support the Firstline workers.  For example, a Team may be created per location or store.  Follow the instructions at [Create Teams](./docs/CreateTeams.md)
 
-### Create Channels for Teams
+### Create Teams Channels
 
-Create the Team Channels per team created in the previous step Create Teams.  Channels are used to segment common work areas within a Team.  Follow the instructions at [Create Channels for Teams](./docs/CreateTeamsChannels.md)
+Create the Team Channels per team created in the previous step Create Teams.  Channels are used to segment common work areas within a Team.  Follow the instructions at [Create Teams Channels](./docs/CreateTeamsChannels.md)
 
 ### Create Teams Message Policies
 
