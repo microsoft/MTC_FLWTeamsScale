@@ -1,9 +1,0 @@
-## Ignore Visual Studio Code temporary files, workspace, and Python virtual environment
-##
-## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
-
-*.gitignore
-
-# VS code workspace
-*.code-workspace
-
