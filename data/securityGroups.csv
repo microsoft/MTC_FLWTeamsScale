@@ -1,3 +1,0 @@
-﻿Name,Description,MessagePolicy,AppPermissionsPolicy,AppSetupPolicy,LicensePlan
-Firstline Workers,Security group for all Firstline Workers,Firstline Worker Messaging Policy,Example FLW App Permission Policy,Example FLW App Setup Policy,DESKLESSPACK
-Firstline Managers,Security group for all Firstline Managers,Firstline Manager Messaging Policy,Example FLM App Permission Policy,Example FLM App Setup Policy,DESKLESSPACK

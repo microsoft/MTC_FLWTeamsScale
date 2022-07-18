@@ -1,4 +1,0 @@
-﻿Name,DynamicMembershipRule
-mystaticgroup1,"user.displayName -startsWith ""pj"""
-mystaticgroup2,"user.displayName -startsWith ""alec"""
-mystaticgroup3,"user.displayName -startsWith ""doug"""
