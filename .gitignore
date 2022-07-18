@@ -2,16 +2,7 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-# Python virtual environment
-.venv/
-
-# Log files
-logs/*.csv
-
-# Visual Studio Code
-.vscode/
-
-# Other Excluded Files and Folders
+*.gitignore
 
 # VS code workspace
 *.code-workspace
